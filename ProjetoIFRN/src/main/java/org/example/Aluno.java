@@ -14,7 +14,7 @@ public class Aluno {
     String nome;
     String email;
     String matricula;
-    float[] notas = new float[4]; //É assim que se cria vetor em Java
+    double[] notas = new double[4]; //É assim que se cria vetor em Java
 
     //Definindo método para leitura do nome
     void getNome () {
@@ -37,15 +37,17 @@ public class Aluno {
     //Definindo método para registrar as notas
     void getNotas () {
         int i = 0;
-        while (i < 4) {
+        while (i <= 3) {
             System.out.print("Digite a nota número " + (i + 1) + ": ");
-            notas[i] = ler.nextFloat();
+            notas[i] = ler.nextDouble();
             i++;
         }
+        String descarte = ler.nextLine(); //Problemas relacionados ao Scanner.
+       //Procurarei uma forma mais profissional depois.
     }
 
     //Definindo método para retornar média
-    float getMedia () {
+    double getMedia () {
         return (notas[0] + notas[1] + notas[2] + notas[3])/4;
     }
 }
