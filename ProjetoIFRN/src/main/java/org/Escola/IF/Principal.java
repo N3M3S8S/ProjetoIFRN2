@@ -1,5 +1,5 @@
 //Definindo pacote da classe
-package org.example;
+package org.Escola.IF;
 
 //Até o momento, esta será a classe principal, onde toda mágica acontecerá
 public class Principal {

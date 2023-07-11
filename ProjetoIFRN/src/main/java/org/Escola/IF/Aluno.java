@@ -1,5 +1,5 @@
 //Definindo o pacote desta classe
-package org.example;
+package org.Escola.IF;
 
 //Importando classe para criação da F. de leitura
 import java.util.Scanner;
