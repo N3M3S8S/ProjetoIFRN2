@@ -1,7 +1,6 @@
 //Definindo o pacote desta classe
 package org.example;
 
-//Exemplo
 //Importando classe para criação da F. de leitura
 import java.util.Scanner;
 
