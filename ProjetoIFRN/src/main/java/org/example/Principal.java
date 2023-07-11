@@ -13,10 +13,6 @@ public class Principal {
         a1.getEmail();
         a1.getMatricula();
         a1.getNotas();
-
-        //Experimentando os métodos em a2 (e o criando também)
-        Aluno a2 = new Aluno();
-        a2.getNotas();
-        a2.getNome();
+        a1.getMedia();
     }
 }
